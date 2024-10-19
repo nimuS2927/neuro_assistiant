@@ -19,8 +19,14 @@ class CoreConfigBasic(object):
 
     def __init__(self):
         self.__PROJECT_DIR: Path = Path(__file__).parent
-        self.__PATH_TO_FILES: Path = Path.joinpath(self.__PROJECT_DIR, 'library', 'files')
+        self.__PATH_TO_FILES: Path = Path.joinpath(
+            self.__PROJECT_DIR, "library", "files"
+        )
         self.__PATH_TO_FILES.mkdir(parents=True, exist_ok=True)
+        self.__PATH_TO_MODELS: Path = Path.joinpath(
+            self.__PROJECT_DIR, "library", "models"
+        )
+        self.__PATH_TO_MODELS.mkdir(parents=True, exist_ok=True)
 
     # region Functions to getting basic settings
     @property
@@ -30,6 +36,11 @@ class CoreConfigBasic(object):
     @property
     def path_to_files(self) -> Path:
         return self.__PATH_TO_FILES
+
+    @property
+    def path_to_models(self) -> Path:
+        return self.__PATH_TO_MODELS
+
     # endregion
 
 
@@ -52,6 +63,7 @@ class HFConfig(object):
     @property
     def token(self) -> str:
         return self.__TOKEN
+
     # endregion
 
 
@@ -79,6 +91,7 @@ class ConfigProject(object):
     @property
     def db(self) -> HFConfig:
         return self.__hf
+
     # endregion
 
 
