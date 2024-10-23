@@ -21,7 +21,7 @@ class ModelBase:
         model_name: str,
         is_cuda: bool = False,
     ):
-        login(token=c_hf.token)
+        login(token=c_hf.token, add_to_git_credential=True)
         self.model_name = model_name
         self.is_cuda = is_cuda
 
@@ -140,7 +140,6 @@ class ModelSaigaMistral7BGguf(ModelBase):
     ):
         self.model = None
         self.model_version = model_version
-        self.tokenizer = None
         self.generation_config = None
         self.device = None
         super().__init__(
@@ -191,18 +190,16 @@ class ModelSaigaMistral7BGguf(ModelBase):
         system_tokens = self.model.tokenize(
             system_prompt.encode("utf-8"), special=False
         )
-
         self.model.eval(system_tokens)
 
     def generate(
         self,
-        prompt,
+        tokens,
         top_k=30,
         top_p=0.9,
         temperature=0.2,
         repeat_penalty=1.1,
     ):
-        tokens = self.model.tokenize(prompt.encode("utf-8"), special=False)
         generator = self.model.generate(
             tokens,
             top_k=top_k,
@@ -230,8 +227,8 @@ class ModelSaigaMistral7BGguf(ModelBase):
 # print(fred.generate(prompt="ты можешь решать математические примеры?"))
 
 saiga_gguf = ModelSaigaMistral7BGguf()
-conversation = Conversation(saiga_gguf.model_name)
-saiga_gguf.load_model(new_conversation=conversation, n_ctx=8000)
+saiga_gguf.load_model(new_conversation=Conversation(saiga_gguf.model_name), n_ctx=8000)
+conversation = Conversation(saiga_gguf.model_name, saiga_gguf.model, is_tokenizer=False)
 # conversation.add_user_message("У тебя есть имя?")
 # result_prompt = conversation.get_prompt()
 # saiga_gguf.generate(result_prompt)
