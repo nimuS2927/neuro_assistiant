@@ -45,7 +45,14 @@ LANGUAGES_VOCAB = {
 
 
 class Conversation:
-    def __init__(self, model_name: str, config: Dict = None, language: str = "en"):
+    def __init__(
+        self,
+        model_name: str,
+        model_or_tokenizer=None,
+        is_tokenizer: bool = True,
+        config: Dict = None,
+        language: str = "en",
+    ):
         if config is None:
             config = MODELS_CONFIG
         self.model_name = model_name
@@ -59,6 +66,8 @@ class Conversation:
         self.language = language.lower() if language.lower() in LANGUAGES else "en"
         self.language_vocab = LANGUAGES_VOCAB[self.language]
         self.messages = [{"role": "system:", "content": self.default_system_prompt}]
+        self.is_tokenizer = is_tokenizer
+        self.model_or_tokenizer = model_or_tokenizer
 
     def add_user_message(self, message):
         self.messages.append({"role": self.language_vocab["user"], "content": message})
@@ -89,7 +98,7 @@ class Conversation:
                 continue
             final_text += self.default_message_template.format(**message)
         final_text += self.default_response_template.format(
-            self.language_vocab["assistant"]
+            role=self.language_vocab["assistant"]
         )
         if delete_documents:
             self.messages = [
@@ -97,4 +106,12 @@ class Conversation:
                 for message in self.messages
                 if not message["role"] == self.language_vocab["document"]
             ]
-        return final_text.strip()
+        if self.is_tokenizer:
+            tokens = self.model_or_tokenizer(
+                final_text.strip().encode("utf-8"), special=False
+            )
+        else:
+            tokens = self.model_or_tokenizer.tokenize(
+                final_text.strip().encode("utf-8"), special=False
+            )
+        return tokens
