@@ -1,0 +1,1544 @@
+{
+    "Общие": [
+        [
+            "Пользовательское соглашение сервисов Яндекса",
+            "https://yandex.ru/legal/rules/index.html"
+        ],
+        [
+            "Лицензия на использование поисковой системы",
+            "https://yandex.ru/legal/termsofuse/index.html"
+        ],
+        [
+            "Политика конфиденциальности",
+            "https://yandex.ru/legal/confidential/index.html"
+        ],
+        [
+            "Условия иcпользования привязанных карт в сервисах Яндекса",
+            "https://yandex.ru/legal/bank_card/index.html"
+        ],
+        [
+            "Политика партнерской интеграции с поисковой системой Яндекса",
+            "https://yandex.ru/legal/search_partner_integration_policy/index.html"
+        ],
+        [
+            "Условия подключения к Партнерской интеграции с поисковой системой Яндекса",
+            "https://yandex.ru/legal/search_partner_integration_conditions/index.html"
+        ],
+        [
+            "Политика Общества с ограниченной ответственностью «ЯНДЕКС» в части обеспечения непредвзятости поиска Яндекса",
+            "https://yandex.ru/legal/search_audit_policy/index.html"
+        ],
+        [
+            "Условия использования сервиса Яндекс ID",
+            "https://yandex.ru/legal/id_termsofuse/index.html"
+        ],
+        [
+            "Правила применения рекомендательных технологий",
+            "https://yandex.ru/legal/recommendations/index.html"
+        ]
+    ],
+    "Условия использования сервисов Яндекса": [
+        [
+            "Яндекс.Карты",
+            "https://yandex.ru/legal/maps_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Народная карта",
+            "https://yandex.ru/legal/pmap_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Погода",
+            "https://yandex.ru/legal/weather_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Афиша",
+            "https://yandex.ru/legal/afisha_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Телепрограмма",
+            "https://yandex.ru/legal/tv_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Расписания",
+            "https://yandex.ru/legal/timetable_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Переводчик",
+            "https://yandex.ru/legal/translate_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Маркет",
+            "https://yandex.ru/legal/market_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Музыка",
+            "https://yandex.ru/legal/music_termsofuse/index.html"
+        ],
+        [
+            "Поиск по блогам и форумам",
+            "https://yandex.ru/legal/blogs_termsofuse/index.html"
+        ],
+        [
+            "Yandex.Store",
+            "https://yandex.ru/legal/store_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.DNS",
+            "https://yandex.ru/legal/dns_termsofuse/index.html"
+        ],
+        [
+            "Онлайн-запись",
+            "https://yandex.ru/legal/servicesmarket_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.PriceLabs",
+            "https://yandex.ru/legal/pricelabs/index.html"
+        ],
+        [
+            "Яндекс.Билеты",
+            "https://yandex.ru/legal/movie_tickets_booking_conditions/index.html"
+        ],
+        [
+            "Яндекс.Радио",
+            "https://yandex.ru/legal/radio_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Доставка",
+            "https://yandex.ru/legal/delivery_terms_of_service/index.html"
+        ],
+        [
+            "Яндекс.Избранное",
+            "https://yandex.ru/legal/collections_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Медиана",
+            "https://yandex.ru/legal/mediana_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Терминал",
+            "https://yandex.ru/legal/terminal_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Толока",
+            "https://yandex.ru/legal/toloka_useragreement/index.html"
+        ],
+        [
+            "Яндекс.Радар",
+            "https://yandex.ru/legal/radar_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.ОФД",
+            "https://yandex.ru/legal/oferta_ofd/index.html"
+        ],
+        [
+            "Сообщество переводчиков Яндекса",
+            "https://yandex.ru/legal/ylc_useragreement/index.html"
+        ],
+        [
+            "Яндекс.Здоровье",
+            "https://yandex.ru/legal/health_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Курьер",
+            "https://yandex.ru/legal/delivery_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Взгляд",
+            "https://yandex.ru/legal/poll/index.html"
+        ],
+        [
+            "Яндекс.Драйв",
+            "https://yandex.ru/legal/drive_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Еда",
+            "https://yandex.ru/legal/termsofuse_eda/index.html"
+        ],
+        [
+            "Яндекс.Облако",
+            "https://yandex.ru/legal/cloud_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Услуги",
+            "https://yandex.ru/legal/uslugi_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Практикум",
+            "https://yandex.ru/legal/practicum_termsofuse/index.html"
+        ],
+        [
+            "API Кабинет разработчика",
+            "https://yandex.ru/legal/developer_tech/index.html"
+        ],
+        [
+            "Яндекс.Формы (для создателей форм)",
+            "https://yandex.ru/legal/forms_creators/index.html"
+        ],
+        [
+            "Яндекс.Формы (для респондентов)",
+            "https://yandex.ru/legal/forms_respondents/index.html"
+        ],
+        [
+            "Голосовой помощник «Алиса»",
+            "https://yandex.ru/legal/alice_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Патенты",
+            "https://yandex.ru/legal/patents_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Комментарии",
+            "https://yandex.ru/legal/comments_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Шеф",
+            "https://yandex.ru/legal/chef_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Игры",
+            "https://yandex.ru/legal/games_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Мессенджер",
+            "https://yandex.ru/legal/messenger_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Автоконсьерж",
+            "https://yandex.ru/legal/autoconcierge_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Заправки",
+            "https://yandex.ru/legal/zapravki_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Репетитор",
+            "https://yandex.ru/legal/tutor_termsofuse/index.html"
+        ],
+        [
+            "Текстовая коллекция «Веб коллекция BY.web (2007)»",
+            "https://yandex.ru/legal/webcollectionby_web/index.html"
+        ],
+        [
+            "Текстовая коллекция «Коллекция Яндекс.Новостей (2006)»",
+            "https://yandex.ru/legal/collectionyandexnews/index.html"
+        ],
+        [
+            "Помощь рядом",
+            "https://yandex.ru/legal/help_termsofuse/index.html"
+        ],
+        [
+            "Условия приобретения Занятий с использованием сервиса Яндекс.Школа",
+            "https://yandex.ru/legal/section_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Телемост",
+            "https://yandex.ru/legal/telemost_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Кью",
+            "https://yandex.ru/legal/q_termsofuse/index.html"
+        ],
+        [
+            "Специальная функция «Конструктор»",
+            "https://yandex.ru/legal/constructor_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Контест",
+            "https://yandex.ru/legal/contest_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Учебник",
+            "https://yandex.ru/legal/uchebnik_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Бизнес",
+            "https://yandex.ru/legal/clients_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Документы",
+            "https://yandex.ru/legal/docs_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Доставка",
+            "https://yandex.ru/legal/delivery_tou/index.html"
+        ],
+        [
+            "Яндекс Командировки",
+            "https://yandex.ru/legal/teamticket_tos/index.html"
+        ],
+        [
+            "Яндекс Книги",
+            "https://yandex.ru/legal/yandex_books_termsofuse/index.html"
+        ],
+        [
+            "Шедеврум",
+            "https://yandex.ru/legal/shedevrum_termsofuse/index.html"
+        ],
+        [
+            "Мастерская Яндекс Практикума",
+            "https://yandex.ru/legal/pet_practicum_termsofuse/index.html"
+        ],
+        [
+            "Yandex GPT",
+            "https://yandex.ru/legal/yagpt_termsofuse/index.html"
+        ],
+        [
+            "Условия подключения опции «Донаты от фанатов»",
+            "https://yandex.ru/legal/music_donate/index.html"
+        ],
+        [
+            "Яндекс.ОФД",
+            "https://yandex.ru/legal/ofd_kodaktivacii_offer/index.html"
+        ],
+        [
+            "Хендбуки Академии Яндекса",
+            "https://yandex.ru/legal/handbook/index.html"
+        ],
+        [
+            "Сервис визуализации и анализа данных / Yandex DataLens",
+            "https://yandex.ru/legal/cloud_sla_datalens/index.html"
+        ],
+        [
+            "Яндекс Ритм",
+            "https://yandex.ru/legal/ritm_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Вебмастер",
+            "https://yandex.ru/legal/webmaster_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Концепт",
+            "https://yandex.ru/legal/boards_termsofuse/index.html"
+        ],
+        [
+            "Условия использования сервиса Библиотека Нейро",
+            "https://yandex.ru/legal/yaneurum/index.html"
+        ],
+        [
+            "Геоаналитика",
+            "https://yandex.ru/legal/geoanalytics_termsofuse/index.html"
+        ],
+        [
+            "Условия использования Сервиса для отправки транзакционных email-сообщений",
+            "https://yandex.ru/legal/cloud_terms_postbox/index.html"
+        ],
+        [
+            "Чат с Алисой",
+            "https://yandex.ru/legal/alice_chat/index.html"
+        ]
+    ],
+    "Лицензионные соглашения об использовании программ Яндекса": [
+        [
+            "Браузер Yandex",
+            "https://yandex.ru/legal/browser_agreement/index.html"
+        ],
+        [
+            "Настольное программное обеспечение Яндекса",
+            "https://yandex.ru/legal/desktop_software_agreement/index.html"
+        ],
+        [
+            "Яндекс.Карты",
+            "https://yandex.ru/legal/maps_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Фотки",
+            "https://yandex.ru/legal/fotki_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Почта",
+            "https://yandex.ru/legal/mail_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Почта (для мобильных устройств)",
+            "https://yandex.ru/legal/mail_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Погода",
+            "https://yandex.ru/legal/weather_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Диск",
+            "https://yandex.ru/legal/disk_termsofuse/index.html"
+        ],
+        [
+            "Яндекс Диск (для мобильных устройств)",
+            "https://yandex.ru/legal/disk_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Старт",
+            "https://yandex.ru/legal/search_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Метро",
+            "https://yandex.ru/legal/metro_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Электрички",
+            "https://yandex.ru/legal/trains_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Киноафиша",
+            "https://yandex.ru/legal/kinoafisha_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Хаб",
+            "https://yandex.ru/legal/hub_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Навигатор",
+            "https://yandex.ru/legal/navigator_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Музыка",
+            "https://yandex.ru/legal/music_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Переводчик",
+            "https://yandex.ru/legal/translate_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Директ",
+            "https://yandex.ru/legal/direct_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Events",
+            "https://yandex.ru/legal/events_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.ЕГЭ (для мобильных устройств)",
+            "https://yandex.ru/legal/ege_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Транспорт",
+            "https://yandex.ru/legal/transport_mobile_agreement/index.html"
+        ],
+        [
+            "Фоторамка",
+            "https://yandex.ru/legal/photoframe_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Город",
+            "https://yandex.ru/legal/city_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Ключ (для мобильных устройств)",
+            "https://yandex.ru/legal/key_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Радио",
+            "https://yandex.ru/legal/radio_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Разговор",
+            "https://yandex.ru/legal/talk_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Телепрограмма",
+            "https://yandex.ru/legal/tv_agreement/index.html"
+        ],
+        [
+            "Яндекс.Клавиатура",
+            "https://yandex.ru/legal/keyboard_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Авиабилеты",
+            "https://yandex.ru/legal/flights_agreement/index.html"
+        ],
+        [
+            "Яндекс.Диск (для SmartTV)",
+            "https://yandex.ru/legal/disk_mobile_agreement_smarttv/index.html"
+        ],
+        [
+            "Советник Яндекс Маркета",
+            "https://yandex.ru/legal/advisor_agreement/index.html"
+        ],
+        [
+            "Яндекс.Коннект",
+            "https://yandex.ru/legal/connect_software_agreement/index.html"
+        ],
+        [
+            "Яндекс.Здоровье",
+            "https://yandex.ru/legal/health_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Афиша",
+            "https://yandex.ru/legal/afisha_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Толока",
+            "https://yandex.ru/legal/toloka_mobile_agreement/index.html"
+        ],
+        [
+            "Виджет Яндекса",
+            "https://yandex.ru/legal/search_widget_agreement/index.html"
+        ],
+        [
+            "Яндекс Авто (встраиваемое решение)",
+            "https://yandex.ru/legal/auto_embedded_agreement/index.html"
+        ],
+        [
+            "Яндекс.Драйв",
+            "https://yandex.ru/legal/drive_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Метрика",
+            "https://yandex.ru/legal/metrica_mobile_agreement/index.html"
+        ],
+        [
+            "AppMetrica",
+            "https://yandex.ru/legal/appmetrica_mobile_agreement/index.html"
+        ],
+        [
+            "Народная карта (для мобильных устройств)",
+            "https://yandex.ru/legal/nmaps_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Авто при поддержке Bosch",
+            "https://yandex.ru/legal/auto_powered_by_bosch_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Мессенджер",
+            "https://yandex.ru/legal/messenger_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Курьер (для мобильных устройств)",
+            "https://yandex.ru/legal/delivery_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Автоконсьерж (для мобильных устройств)",
+            "https://yandex.ru/legal/autoconcierge_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Заправки (для мобильных устройств)",
+            "https://yandex.ru/legal/zapravki_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Лавка (для мобильных устройств)",
+            "https://yandex.ru/legal/lavka_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Услуги (для мобильных устройств)",
+            "https://yandex.ru/legal/uslugi_mobile_agreement/index.html"
+        ],
+        [
+            "Yandex.Cloud (для мобильных устройств)",
+            "https://yandex.ru/legal/cloud_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Телемост",
+            "https://yandex.ru/legal/telemost_mobile_agreement/index.html"
+        ],
+        [
+            "YaOS (для устройств с поддержкой технологии SmartTV)",
+            "https://yandex.ru/legal/tv_mobile_agreement_smarttv/index.html"
+        ],
+        [
+            "Алиса – голосовой помощник (для мобильных устройств)",
+            "https://yandex.ru/legal/alice_agreement/index.html"
+        ],
+        [
+            "«Дом с Алисой» (для мобильных устройств)",
+            "https://yandex.ru/legal/smarthome_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс.Услуги для мастеров (для мобильных устройств)",
+            "https://yandex.ru/legal/uslugipro_mobile_agreement/index.html"
+        ],
+        [
+            "«Yandex Tracker» для мобильных устройств",
+            "https://yandex.ru/legal/tracker_mobile_agreement/index.html"
+        ],
+        [
+            "«Плюс Сити» (для мобильных устройств)",
+            "https://yandex.ru/legal/pluscity_mobile_agreement/index.html"
+        ],
+        [
+            "«Яндекс.Практикум» (для мобильных устройств)",
+            "https://yandex.ru/legal/practicum_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс с Алисой (для мобильных устройств и устройств с поддержкой технологии SmartTV)",
+            "https://yandex.ru/legal/yaalice_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Книги (для мобильных устройств)",
+            "https://yandex.ru/legal/yandex_books_mobile_agreement/index.html"
+        ],
+        [
+            "Подборки «Яндекс Игры»",
+            "https://yandex.ru/legal/games_collections_mobile_agreement/index.html"
+        ],
+        [
+            "Игроток (для мобильных устройств)",
+            "https://yandex.ru/legal/games_igrotok_mobile_agreement/index.html"
+        ],
+        [
+            "Яндекс Станция и иные колонки с Алисой",
+            "https://yandex.ru/legal/station_license/index.html"
+        ],
+        [
+            "Шедеврум (для мобильных устройств)",
+            "https://yandex.ru/legal/shedevrum_mobile_agreement/index.html"
+        ],
+        [
+            "Сказбука (для мобильных устройств)",
+            "https://yandex.ru/legal/skazbuka_mobile_agreement/index.html"
+        ],
+        [
+            "Алиса – виртуальный помощник (для мобильных устройств Huawei)",
+            "https://yandex.ru/legal/aliceforappgallery_license/index.html"
+        ],
+        [
+            "Яндекс Ритм (для мобильных устройств)",
+            "https://yandex.ru/legal/ritm_mobile_agreement/index.html"
+        ],
+        [
+            "Условия использования навыка «Звонки» для Яндекс Станций абонентами ПАО «МТС»",
+            "https://yandex.ru/legal/call_mts/index.html"
+        ],
+        [
+            "Алиса (для мобильных устройств)",
+            "https://yandex.ru/legal/aliceapp/index.html"
+        ]
+    ],
+    "Уровни обслуживания Сервисов": [
+        [
+            "Уровень обслуживания Сервиса для отправки транзакционных email-сообщений",
+            "https://yandex.ru/legal/cloud_sla_postbox/index.html"
+        ]
+    ],
+    "Условия использования API сервисов Яндекса": [
+        [
+            "Яндекс.Карты",
+            "https://yandex.ru/legal/maps_api/index.html"
+        ],
+        [
+            "Яндекс.Карты (Оферта)",
+            "https://yandex.ru/legal/maps_api_offer/index.html"
+        ],
+        [
+            "Яндекс.Фотки",
+            "https://yandex.ru/legal/fotki_api/index.html"
+        ],
+        [
+            "Яндекс.Метрика",
+            "https://yandex.ru/legal/metrica_api/index.html"
+        ],
+        [
+            "Яндекс.Директ",
+            "https://yandex.ru/legal/direct_api/index.html"
+        ],
+        [
+            "API партнерской сети Маркета",
+            "https://yandex.ru/legal/market_affiliate_api/index.html"
+        ],
+        [
+            "Яндекс Маркет для партнеров",
+            "https://yandex.ru/legal/market_api_partner/index.html"
+        ],
+        [
+            "Контентный API Яндекс Маркет",
+            "https://yandex.ru/legal/market_api_content/index.html"
+        ],
+        [
+            "Яндекс.Бар",
+            "https://yandex.ru/legal/bar_api/index.html"
+        ],
+        [
+            "Яндекс.Спеллер",
+            "https://yandex.ru/legal/speller_api/index.html"
+        ],
+        [
+            "Хостинг JavaScript-библиотек",
+            "https://yandex.ru/legal/jslibs_api/index.html"
+        ],
+        [
+            "Safe Browsing API",
+            "https://yandex.ru/legal/yandex_sb_api/index.html"
+        ],
+        [
+            "Яндекс.Вебмастер",
+            "https://yandex.ru/legal/webmaster_api/index.html"
+        ],
+        [
+            "Яндекс.Переводчик",
+            "https://yandex.ru/legal/translate_api/index.html"
+        ],
+        [
+            "Яндекс.Предиктор",
+            "https://yandex.ru/legal/predictor_api/index.html"
+        ],
+        [
+            "Яндекс.Подписки",
+            "https://yandex.ru/legal/feeds_api/index.html"
+        ],
+        [
+            "Яндекс.Словарь",
+            "https://yandex.ru/legal/dictionary_api/index.html"
+        ],
+        [
+            "Rich Content API",
+            "https://yandex.ru/legal/rca_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Почтовый офис",
+            "https://yandex.ru/legal/api_postoffice/index.html"
+        ],
+        [
+            "Яндекс.Расписания",
+            "https://yandex.ru/legal/rasp_api/index.html"
+        ],
+        [
+            "Яндекс.Диск",
+            "https://yandex.ru/legal/disk_api/index.html"
+        ],
+        [
+            "Партнерский интерфейс",
+            "https://yandex.ru/legal/partner_interface_api/index.html"
+        ],
+        [
+            "Валидатор микроразметки",
+            "https://yandex.ru/legal/microtest_api/index.html"
+        ],
+        [
+            "Yandex DataSync API",
+            "https://yandex.ru/legal/sync_api/index.html"
+        ],
+        [
+            "Яндекс.Дисплей",
+            "https://yandex.ru/legal/display_api/index.html"
+        ],
+        [
+            "API Аудиторий",
+            "https://yandex.ru/legal/audience_api/index.html"
+        ],
+        [
+            "API Поиска для интернет-магазинов",
+            "https://yandex.ru/legal/site_api/index.html"
+        ],
+        [
+            "API Яндекс.Коннект",
+            "https://yandex.ru/legal/connect_api/index.html"
+        ],
+        [
+            "API Яндекс Погода",
+            "https://yandex.ru/legal/api_weather_agreement/index.html"
+        ],
+        [
+            "Турбо-страницы",
+            "https://yandex.ru/legal/turbo_api/index.html"
+        ],
+        [
+            "API Яндекс.Такси для партнеров сервиса",
+            "https://yandex.ru/legal/taxi_api_partners/index.html"
+        ],
+        [
+            "API AdFox",
+            "https://yandex.ru/legal/api_adfox/index.html"
+        ],
+        [
+            "API Яндекс.Коллекции",
+            "https://yandex.ru/legal/collections_api/index.html"
+        ],
+        [
+            "Виджет «Коронавирус: Статистика»",
+            "https://yandex.ru/legal/api_covid19_agreement/index.html"
+        ],
+        [
+            "API авторизации через Яндекс ID",
+            "https://yandex.ru/legal/authid_api/index.html"
+        ],
+        [
+            "API Яндекс ОФД",
+            "https://yandex.ru/legal/api_ofd/index.html"
+        ],
+        [
+            "Маршрутизация Лайт",
+            "https://yandex.ru/legal/routing_lite_offer/index.html"
+        ],
+        [
+            "API Карт для стартапов",
+            "https://yandex.ru/legal/maps_api_startup/index.html"
+        ]
+    ],
+    "Корпоративные продукты": [
+        [
+            "Яндекс.XML",
+            "https://yandex.ru/legal/xml/index.html"
+        ],
+        [
+            "Веб-конфигуратор Браузера Yandex",
+            "https://yandex.ru/legal/web_configurator_termsofuse/index.html"
+        ],
+        [
+            "Оферта на услуги Яндекс.Взгляд",
+            "https://yandex.ru/legal/oferta_surveys/index.html"
+        ],
+        [
+            "Условия оказания услуги «Продвинутый опрос»",
+            "https://yandex.ru/legal/surveys_forms_creation_terms/index.html"
+        ],
+        [
+            "Условия оказания услуги «Простой опрос»",
+            "https://yandex.ru/legal/surveys_mini_toolkit_terms/index.html"
+        ],
+        [
+            "Условия оказания услуги «UX-тестирование»",
+            "https://yandex.ru/legal/ux_test_terms/index.html"
+        ],
+        [
+            "Условия оказания услуги «Подбор анкет кандидатов по профилю»",
+            "https://yandex.ru/legal/talents_candidates_search_terms/index.html"
+        ],
+        [
+            "Оферта на реализацию кодов",
+            "https://yandex.ru/legal/plus_oferta/index.html"
+        ],
+        [
+            "Оферта на заключение договора возмездного оказания услуг «Яндекс 360 для бизнеса»",
+            "https://yandex.ru/legal/oferta_business/index.html"
+        ],
+        [
+            "Соглашение об информационном сотрудничестве в рамках проекта «Загруженность организаций» Сервиса Яндекс.Карты",
+            "https://yandex.ru/legal/queues_maps_offer/index.html"
+        ],
+        [
+            "Условия оказания услуги «Опрос по своей базе»",
+            "https://yandex.ru/legal/surveys_own_database_terms/index.html"
+        ],
+        [
+            "Условия оказания услуги «Полевые исследования»",
+            "https://yandex.ru/legal/field_research_terms/index.html"
+        ]
+    ],
+    "Рекламная сеть Яндекса": [
+        [
+            "Правила участия",
+            "https://yandex.ru/legal/partner/index.html"
+        ],
+        [
+            "Оферта Рекламной сети Яндекса",
+            "https://yandex.ru/legal/yan_service_offer/index.html"
+        ],
+        [
+            "Условия подключения сторонних рекламных сетей",
+            "https://yandex.ru/legal/simple_mediation/index.html"
+        ]
+    ],
+    "Вебмастеру и разработчику": [
+        [
+            "Метрика",
+            "https://yandex.ru/legal/metrica_termsofuse/index.html"
+        ],
+        [
+            "Предоставление расширенной статистики",
+            "https://yandex.ru/legal/extended_statistics_conditions/index.html"
+        ],
+        [
+            "Поиск для сайта",
+            "https://yandex.ru/legal/site_termsofuse/index.html"
+        ],
+        [
+            "Яндекс.Метрика для медийной рекламы",
+            "https://yandex.ru/legal/media_metrica_termsofuse/index.html"
+        ],
+        [
+            "Блок «Поделиться»",
+            "https://yandex.ru/legal/sharebutton_termsofuse/index.html"
+        ],
+        [
+            "Конструктор обновления браузеров",
+            "https://yandex.ru/legal/updater_termsofuse/index.html"
+        ],
+        [
+            "Кабинет разработчика виджетов",
+            "https://yandex.ru/legal/widgets_termsofuse/index.html"
+        ],
+        [
+            "Соглашение с разработчиками Yandex.Store",
+            "https://yandex.ru/legal/store_developer_agreement/index.html"
+        ],
+        [
+            "Лицензионное Соглашение с Контрибьютором",
+            "https://yandex.ru/legal/cla/index.html"
+        ],
+        [
+            "SDK Яндекс.Диска",
+            "https://yandex.ru/legal/sdk_agreement/index.html"
+        ],
+        [
+            "Правила разработки Приложений для взаимодействия с API Сервиса «Яндекс.Директ»",
+            "https://yandex.ru/legal/direct_api_developers/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование набора средств разработки «Yandex AppMetrica SDK»",
+            "https://yandex.ru/legal/appmetrica_sdk_agreement/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование набора средств разработки «Yandex Mobile Ads SDK»",
+            "https://yandex.ru/legal/mobileads_sdk_agreement/index.html"
+        ],
+        [
+            "Турбо-страницы",
+            "https://yandex.ru/legal/turbo_termsofuse/index.html"
+        ],
+        [
+            "Условия использования сервиса Яндекс.Диалоги",
+            "https://yandex.ru/legal/dialogues_termsofuse/index.html"
+        ],
+        [
+            "Условия использования функции управления интерфейсом Диалога",
+            "https://yandex.ru/legal/dialogues_interface_termsofuse/index.html"
+        ],
+        [
+            "Условия Использования Платформы Яндекс Игры для Разработчиков",
+            "https://yandex.ru/legal/yandexgames/index.html"
+        ],
+        [
+            "Условия использования функции «бронирование в чатах» поисковой системы Яндекс",
+            "https://yandex.ru/legal/booking_function_termsofuse/index.html"
+        ],
+        [
+            "Оферта на предоставление доступа к Программному продукту",
+            "https://yandex.ru/legal/marketplace_offer/index.html"
+        ],
+        [
+            "Условия использования сервиса «Инструменты для работы с конверсией сайта»",
+            "https://yandex.ru/legal/conversion_termsofuse/index.html"
+        ],
+        [
+            "Лицензионное Соглашение с Контрибьютором сервиса «Яндекс.Облако»»",
+            "https://yandex.ru/legal/cla/cloud/index.html"
+        ],
+        [
+            "Условия использования сервиса «Источники данных для улучшения представления в сервисах Яндекса»",
+            "https://yandex.ru/legal/webmaster_fid/index.html"
+        ],
+        [
+            "Условия использования сервиса «API Поиска по товарам Яндекса»",
+            "https://yandex.ru/legal/api_popular-products/index.html"
+        ],
+        [
+            "Лицензионное соглашение с разработчиками, предоставляющим свои Игры Яндексу",
+            "https://yandex.ru/legal/licensegames/index.html"
+        ],
+        [
+            "Недвижимость",
+            "https://yandex.ru/legal/realty_agreement/index.html"
+        ],
+        [
+            "Отзывы",
+            "https://yandex.ru/legal/referencies_cooperation/index.html"
+        ],
+        [
+            "Справочник",
+            "https://yandex.ru/legal/directory_cooperation/index.html"
+        ],
+        [
+            "Соглашение об информационном сотрудничестве «Яндекс.Расписания»",
+            "https://yandex.ru/legal/rasp/index.html"
+        ]
+    ],
+    "Передача данных о содержимом сайта": [
+        [
+            "Недвижимость",
+            "https://yandex.ru/legal/realty_agreement/index.html"
+        ],
+        [
+            "Отзывы",
+            "https://yandex.ru/legal/referencies_cooperation/index.html"
+        ],
+        [
+            "Справочник",
+            "https://yandex.ru/legal/directory_cooperation/index.html"
+        ],
+        [
+            "Соглашение об информационном сотрудничестве «Яндекс.Расписания»",
+            "https://yandex.ru/legal/rasp/index.html"
+        ]
+    ],
+    "Рекламодателям": [
+        [
+            "Общие положения",
+            "https://yandex.ru/legal/general_adv_rules/index.html"
+        ],
+        [
+            "Правила размещения рекламы на Яндексе",
+            "https://yandex.ru/legal/adv_rules/index.html"
+        ],
+        [
+            "Яндекс.Директ",
+            "https://yandex.ru/legal/direct_adv_rules/index.html"
+        ],
+        [
+            "Яндекс Маркет",
+            "https://yandex.ru/legal/market_adv_rules/index.html"
+        ],
+        [
+            "Баннерная реклама",
+            "https://yandex.ru/legal/banner_adv_rules/index.html"
+        ],
+        [
+            "Текстовая реклама",
+            "https://yandex.ru/legal/text_adv_rules/index.html"
+        ],
+        [
+            "Тематические пакеты. Баннер на поиске",
+            "https://yandex.ru/legal/requirements_media_context_banner/index.html"
+        ],
+        [
+            "Смарт-баннер",
+            "https://yandex.ru/legal/direct_adv_rules_smart_banner/index.html"
+        ],
+        [
+            "Порядок размещения материалов на интернет-медийных позициях Яндекса",
+            "https://yandex.ru/legal/media_procedure/index.html"
+        ],
+        [
+            "Правила предоставления сервиса «Аудитории»",
+            "https://yandex.ru/legal/audience_tos/index.html"
+        ],
+        [
+            "Оферта на оказание услуг «Яндекс.Директ»",
+            "https://yandex.ru/legal/oferta_direct/index.html"
+        ],
+        [
+            "Правила показа «Яндекс.Директ»",
+            "https://yandex.ru/legal/direct_display_rules/index.html"
+        ],
+        [
+            "Оферта на оказание услуг «Яндекс Маркет»",
+            "https://yandex.ru/legal/oferta_market/index.html"
+        ],
+        [
+            "Общие условия оказания услуг «Яндекс Маркет»",
+            "https://yandex.ru/legal/market_general/index.html"
+        ],
+        [
+            "Правила размещения медийной рекламы на ресурсах Яндекса",
+            "https://yandex.ru/legal/direct_display_rules_media/index.html"
+        ],
+        [
+            "Правила размещения социальной рекламы",
+            "https://yandex.ru/legal/social_ads/index.html"
+        ],
+        [
+            "Положение о (скидках) грантах на размещение социальной рекламы",
+            "https://yandex.ru/legal/social_ads_grants/index.html"
+        ],
+        [
+            "«Яндекс.Бизнес»: Приоритетное размещение в «Яндекс.Бизнесе»",
+            "https://yandex.ru/legal/directory_conditions/index.html"
+        ],
+        [
+            "Брендированное приоритетное размещение в Яндекс.Бизнесе",
+            "https://yandex.ru/legal/branded_priority_conditions/index.html"
+        ]
+    ],
+    "Требования к рекламным материалам": [
+        [
+            "Общие положения",
+            "https://yandex.ru/legal/general_adv_rules/index.html"
+        ],
+        [
+            "Правила размещения рекламы на Яндексе",
+            "https://yandex.ru/legal/adv_rules/index.html"
+        ],
+        [
+            "Яндекс.Директ",
+            "https://yandex.ru/legal/direct_adv_rules/index.html"
+        ],
+        [
+            "Яндекс Маркет",
+            "https://yandex.ru/legal/market_adv_rules/index.html"
+        ],
+        [
+            "Баннерная реклама",
+            "https://yandex.ru/legal/banner_adv_rules/index.html"
+        ],
+        [
+            "Текстовая реклама",
+            "https://yandex.ru/legal/text_adv_rules/index.html"
+        ],
+        [
+            "Тематические пакеты. Баннер на поиске",
+            "https://yandex.ru/legal/requirements_media_context_banner/index.html"
+        ],
+        [
+            "Смарт-баннер",
+            "https://yandex.ru/legal/direct_adv_rules_smart_banner/index.html"
+        ],
+        [
+            "Порядок размещения материалов на интернет-медийных позициях Яндекса",
+            "https://yandex.ru/legal/media_procedure/index.html"
+        ],
+        [
+            "Правила предоставления сервиса «Аудитории»",
+            "https://yandex.ru/legal/audience_tos/index.html"
+        ]
+    ],
+    "Условия оказания рекламных услуг": [
+        [
+            "Оферта на оказание услуг «Яндекс.Директ»",
+            "https://yandex.ru/legal/oferta_direct/index.html"
+        ],
+        [
+            "Правила показа «Яндекс.Директ»",
+            "https://yandex.ru/legal/direct_display_rules/index.html"
+        ],
+        [
+            "Оферта на оказание услуг «Яндекс Маркет»",
+            "https://yandex.ru/legal/oferta_market/index.html"
+        ],
+        [
+            "Общие условия оказания услуг «Яндекс Маркет»",
+            "https://yandex.ru/legal/market_general/index.html"
+        ],
+        [
+            "Правила размещения медийной рекламы на ресурсах Яндекса",
+            "https://yandex.ru/legal/direct_display_rules_media/index.html"
+        ],
+        [
+            "Правила размещения социальной рекламы",
+            "https://yandex.ru/legal/social_ads/index.html"
+        ],
+        [
+            "Положение о (скидках) грантах на размещение социальной рекламы",
+            "https://yandex.ru/legal/social_ads_grants/index.html"
+        ]
+    ],
+    "Условия размещения": [
+        [
+            "«Яндекс.Бизнес»: Приоритетное размещение в «Яндекс.Бизнесе»",
+            "https://yandex.ru/legal/directory_conditions/index.html"
+        ],
+        [
+            "Брендированное приоритетное размещение в Яндекс.Бизнесе",
+            "https://yandex.ru/legal/branded_priority_conditions/index.html"
+        ]
+    ],
+    "Яндекс Маркет": [
+        [
+            "Приглашение для услуг «Маркет.Вендор»",
+            "https://yandex.ru/legal/vendor/index.html"
+        ],
+        [
+            "Оферта на оказание услуг «Яндекс Маркет»",
+            "https://yandex.ru/legal/oferta_market/index.html"
+        ],
+        [
+            "Договор на оказание услуг «Яндекс Маркет» по размещению Товарных предложений и предоставлению функционала по заключению договоров на Сервисе",
+            "https://yandex.ru/legal/cpa_service_agreement/index.html"
+        ],
+        [
+            "Договор на оказание услуг по продвижению Маркетплейса Яндекс Маркета и сервиса Яндекс Маркет",
+            "https://yandex.ru/legal/marketplace_marketing_agreement/index.html"
+        ],
+        [
+            "Пользовательское соглашение сервиса «ЕкомАналитика»",
+            "https://yandex.ru/legal/ecomanalytics_terms/index.html"
+        ],
+        [
+            "Яндекс.PriceLabs",
+            "https://yandex.ru/legal/pricelabs/index.html"
+        ],
+        [
+            "Договор на оказание услуг Маркетплейса Яндекс Маркета",
+            "https://yandex.ru/legal/marketplace_service_agreement/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программных модулей для взаимодействия сервиса Яндекс Маркет с информационными системами",
+            "https://yandex.ru/legal/market_modules_agreement/index.html"
+        ],
+        [
+            "Условия проведения Эксперимента «Запросы на поставку от маркетплейса»",
+            "https://yandex.ru/legal/additional_shipment_experiment_rules/index.html"
+        ],
+        [
+            "Договор на оказание услуг по размещению Товарных предложений и предоставлению функционала по заключению договоров и/или предварительному бронированию Товаров на Сервисе",
+            "https://yandex.ru/legal/common_market_service_agreement/index.html"
+        ],
+        [
+            "Яндекс Маркет",
+            "https://yandex.ru/legal/market_termsofuse/index.html"
+        ]
+    ],
+    "Для бизнеса": [
+        [
+            "Приглашение для услуг «Маркет.Вендор»",
+            "https://yandex.ru/legal/vendor/index.html"
+        ],
+        [
+            "Оферта на оказание услуг «Яндекс Маркет»",
+            "https://yandex.ru/legal/oferta_market/index.html"
+        ],
+        [
+            "Договор на оказание услуг «Яндекс Маркет» по размещению Товарных предложений и предоставлению функционала по заключению договоров на Сервисе",
+            "https://yandex.ru/legal/cpa_service_agreement/index.html"
+        ],
+        [
+            "Договор на оказание услуг по продвижению Маркетплейса Яндекс Маркета и сервиса Яндекс Маркет",
+            "https://yandex.ru/legal/marketplace_marketing_agreement/index.html"
+        ],
+        [
+            "Пользовательское соглашение сервиса «ЕкомАналитика»",
+            "https://yandex.ru/legal/ecomanalytics_terms/index.html"
+        ],
+        [
+            "Яндекс.PriceLabs",
+            "https://yandex.ru/legal/pricelabs/index.html"
+        ],
+        [
+            "Договор на оказание услуг Маркетплейса Яндекс Маркета",
+            "https://yandex.ru/legal/marketplace_service_agreement/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программных модулей для взаимодействия сервиса Яндекс Маркет с информационными системами",
+            "https://yandex.ru/legal/market_modules_agreement/index.html"
+        ],
+        [
+            "Условия проведения Эксперимента «Запросы на поставку от маркетплейса»",
+            "https://yandex.ru/legal/additional_shipment_experiment_rules/index.html"
+        ],
+        [
+            "Договор на оказание услуг по размещению Товарных предложений и предоставлению функционала по заключению договоров и/или предварительному бронированию Товаров на Сервисе",
+            "https://yandex.ru/legal/common_market_service_agreement/index.html"
+        ]
+    ],
+    "Для пользователей": [
+        [
+            "Яндекс Маркет",
+            "https://yandex.ru/legal/market_termsofuse/index.html"
+        ]
+    ],
+    "Авто.ру": [
+        [
+            "Лицензионное соглашение на использование базы данных «Авто.ру» и прикладной программы «Авто.ру»",
+            "https://yandex.ru/legal/autoru_licenseagreement/index.html"
+        ],
+        [
+            "Условия оказания услуг на сервисе Auto.ru",
+            "https://yandex.ru/legal/autoru_cars_dogovor/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программы «Auto.ru» (Авто.ру) для мобильных устройств",
+            "https://yandex.ru/legal/autoru_mobile_license/index.html"
+        ],
+        [
+            "Правила программы лояльности «Кэшбэк»",
+            "https://yandex.ru/legal/autoru_cashback/index.html"
+        ],
+        [
+            "Пользовательское соглашение сайта «AUTO.RU»",
+            "https://yandex.ru/legal/autoru_terms_of_service/index.html"
+        ],
+        [
+            "Условия предоставления Раздела «Гараж» сайта Auto.ru",
+            "https://yandex.ru/legal/garage/index.html"
+        ],
+        [
+            "Условия предоставления опции сервиса Auto.ru по информационному обеспечению участия в Сборе ценовых предложений",
+            "https://yandex.ru/legal/autoru_bot_tender/index.html"
+        ],
+        [
+            "Договор присоединения на оказание услуг по предоставлению удаленного доступа к Программному продукту",
+            "https://yandex.ru/legal/autoru_business_agreement/index.html"
+        ],
+        [
+            "Правила предоставления удаленного доступа к Программному продукту",
+            "https://yandex.ru/legal/autoru_business_rules/index.html"
+        ],
+        [
+            "Договор присоединения на оказание услуг по предоставлению удаленного доступа к Программному продукту с учетом дополнительного функционала \"отслеживание звонков\"",
+            "https://yandex.ru/legal/autoru_business_agreement_calltracking/index.html"
+        ]
+    ],
+    "Кинопоиск": [
+        [
+            "Пользовательское соглашение сайта «Кинопоиск»",
+            "https://yandex.ru/legal/kinopoisk_termsofuse/index.html"
+        ],
+        [
+            "Правила размещения на «Кинопоиск» рецензий на фильмы",
+            "https://yandex.ru/legal/kinopoisk_review/index.html"
+        ],
+        [
+            "Условия просмотра платного контента на сервисе Кинопоиск",
+            "https://yandex.ru/legal/kinopoisk_vod/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программы Кинопоиск для мобильных устройств",
+            "https://yandex.ru/legal/kinopoisk_mobile_agreement/index.html"
+        ],
+        [
+            "Кинопоиск (для устройств с поддержкой технологии SmartTV)",
+            "https://yandex.ru/legal/kinopoisk_mobile_agreement_smarttv/index.html"
+        ]
+    ],
+    "Недвижимость": [
+        [
+            "Условия использования сервиса «Яндекс.Недвижимость»",
+            "https://yandex.ru/legal/realty_termsofuse/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программы «Яндекс.Недвижимость» для мобильных устройств",
+            "https://yandex.ru/legal/realty_mobile_agreement/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование базы данных «Яндекс.Недвижимость» и прикладной программы «Яндекс.Недвижимость»",
+            "https://yandex.ru/legal/realty_licenseagreement/index.html"
+        ],
+        [
+            "Условия использования сервиса «Яндекс Аренда»",
+            "https://yandex.ru/legal/lease_termsofuse/index.html"
+        ],
+        [
+            "Условия оказания услуг «Яндекс.Аренда»",
+            "https://yandex.ru/legal/realty_lease_tenant/index.html"
+        ],
+        [
+            "Условия осуществления содействия в предоставлении недвижимости в пользование",
+            "https://yandex.ru/legal/realty_lease_landlord/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программы «Яндекс Аренда» для мобильных устройств",
+            "https://yandex.ru/legal/lease_mobile_agreement/index.html"
+        ]
+    ],
+    "Аренда": [
+        [
+            "Условия использования сервиса «Яндекс Аренда»",
+            "https://yandex.ru/legal/lease_termsofuse/index.html"
+        ],
+        [
+            "Условия оказания услуг «Яндекс.Аренда»",
+            "https://yandex.ru/legal/realty_lease_tenant/index.html"
+        ],
+        [
+            "Условия осуществления содействия в предоставлении недвижимости в пользование",
+            "https://yandex.ru/legal/realty_lease_landlord/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программы «Яндекс Аренда» для мобильных устройств",
+            "https://yandex.ru/legal/lease_mobile_agreement/index.html"
+        ]
+    ],
+    "Путешествия": [
+        [
+            "Условия использования сервиса «Яндекc Путешествия»",
+            "https://yandex.ru/legal/travel_termsofuse/index.html"
+        ],
+        [
+            "Условия Бронирования Объектов на сервисе «Яндекс Путешествия»",
+            "https://yandex.ru/legal/hotels_booking_conditions/index.html"
+        ],
+        [
+            "Условия приобретения электронных билетов на поезда и страховых полисов (страхование жизни и здоровья пассажира)",
+            "https://yandex.ru/legal/train_tickets_booking_conditions/index.html"
+        ],
+        [
+            "Условия бронирования и приобретения электронных билетов на автобусы",
+            "https://yandex.ru/legal/bus_tickets_booking_conditions/index.html"
+        ],
+        [
+            "Яндекс Путешествия. Оферта на заключение агентского договора",
+            "https://yandex.ru/legal/travel_offerforhotels/index.html"
+        ],
+        [
+            "Правила показа",
+            "https://yandex.ru/legal/impression_rules/index.html"
+        ],
+        [
+            "Правила акции. Условия использования Промокодов",
+            "https://yandex.ru/legal/travel_promocode/index.html"
+        ],
+        [
+            "Технические требования к организации взаимодействия веб-систем Яндекса и Заказчика для предоставления Заказчиком Материалов",
+            "https://yandex.ru/legal/airplane_timetable_requirements/index.html"
+        ],
+        [
+            "Лицензионное соглашение на использование программы «Яндекс.Путешествия» для мобильных устройств",
+            "https://yandex.ru/legal/travel_mobile_agreement/index.html"
+        ]
+    ],
+    "Яндекс.Такси": [
+        [
+            "Расчет вознаграждения по Договору оказания услуг по привлечению новых клиентов в сервис Яндекс.Такси",
+            "https://yandex.ru/legal/taxi_agent_program_fee_calculation/index.html"
+        ],
+        [
+            "Условия использования сервиса «Виджет Яндекс Go»",
+            "https://yandex.ru/legal/taxi_api/index.html"
+        ],
+        [
+            "Рекламная политика Яндекс.Такси",
+            "https://yandex.ru/legal/taxi_reklamnaya_politika/index.html"
+        ],
+        [
+            "Оферта на предоставление удаленного доступа к Сервису",
+            "https://yandex.ru/legal/taxi_offer/index.html"
+        ],
+        [
+            "Оферта на оказание Услуг по продвижению Сервиса Яндекс.Такси",
+            "https://yandex.ru/legal/taxi_marketing_offer/index.html"
+        ],
+        [
+            "Оферта на оказание Услуг по осуществлению перевозок пассажиров и багажа легковым такси и иных услуг для Корпоративных Пользователей",
+            "https://yandex.ru/legal/taxi_corporate_offer/index.html"
+        ]
+    ],
+    "Яндекс.Телефон": [
+        [
+            "Лицензионное соглашение программного обеспечения устройства \"Яндекс.Телефон\"",
+            "https://yandex.ru/legal/phone_agreement/index.html"
+        ],
+        [
+            "Условия использования Бета-версии программного обеспечения устройства \"Яндекс.Телефон\"",
+            "https://yandex.ru/legal/phone_beta_license/index.html"
+        ]
+    ],
+    "Платформа игр Яндекса": [
+        [
+            "Лицензионное соглашение c пользователями платформы игр Яндекса",
+            "https://yandex.ru/legal/sublicense_users/index.html"
+        ]
+    ],
+    "Дистрибуция продуктов Яндекса": [
+        [
+            "Соглашение о порядке распространения продуктов Яндекса в тестовом режиме",
+            "https://yandex.ru/legal/distribution_test_agreement/index.html"
+        ],
+        [
+            "Правила использования Партнерского интерфейса",
+            "https://yandex.ru/legal/distribution_interface/index.html"
+        ],
+        [
+            "Договор оказания услуг по привлечению новых пользователей продуктов и сервисов",
+            "https://yandex.ru/legal/distribution_agreement/index.html"
+        ]
+    ],
+    "Яндекс.Телефония": [
+        [
+            "Оферта на оказание услуг «Яндекс.Телефония»",
+            "https://yandex.ru/legal/telephony_offer/index.html"
+        ],
+        [
+            "Условия использования сервиса Яндекс.Телефония",
+            "https://yandex.ru/legal/telephony_termsofuse/index.html"
+        ],
+        [
+            "Лицензионное соглашение Яндекс.Телефония для мобильных устройств",
+            "https://yandex.ru/legal/telephony_mobile_agreement/index.html"
+        ]
+    ],
+    "Яндекс.Почта": [
+        [
+            "Лицензионное соглашение на предоставление прав использования расширенных возможностей программы Яндекс Почта",
+            "https://yandex.ru/legal/promail_offer/index.html"
+        ]
+    ],
+    "Образовательные проекты АНО ДПО «Образовательные технологии Яндекса»": [
+        [
+            "Условия использования сервиса Яндекс LMS",
+            "https://yandex.ru/legal/lms_termsofuse/index.html"
+        ],
+        [
+            "Положение об образовательном проекте «Яндекс Лицей» в рамках дополнительного образования детей",
+            "https://yandex.ru/legal/lyceum/index.html"
+        ],
+        [
+            "Правила обработки персональных данных участника проекта «Лицей Академии Яндекса»",
+            "https://yandex.ru/legal/lyceum_personal_data/index.html"
+        ],
+        [
+            "Условия использования сервиса Я Учитель",
+            "https://yandex.ru/legal/uchitel_termsofuse/index.html"
+        ],
+        [
+            "Положение о курсах повышения квалификации сервиса Яндекс Учебник для педагогов",
+            "https://yandex.ru/legal/uchebnik_kpkrules/index.html"
+        ],
+        [
+            "Оферта на заключение договора о сетевой форме реализации дополнительных общеразвивающих программ Автономной некоммерческой организации дополнительного школьного образования «Школа Анализа Данных»",
+            "https://yandex.ru/legal/futurecode_net/index.html"
+        ]
+    ],
+    "Яндекс Станция и иные устройства с подпиской семейства Яндекс Плюс": [
+        [
+            "Устройства с подпиской семейства Яндекс Плюс",
+            "https://yandex.ru/legal/device_plus/index.html"
+        ],
+        [
+            "Условия поставки Товара",
+            "https://yandex.ru/legal/supply_yandex_station/index.html"
+        ]
+    ],
+    "Магистрали": [
+        [
+            "Оферта на оказание Услуг по предоставлению доступа к Платформе «Магистраль» для грузоотправителей",
+            "https://yandex.ru/legal/magistrali_client/index.html"
+        ],
+        [
+            "Оферта на оказание Услуг по предоставлению доступа к Платформе «Магистрали» грузоперевозчиков",
+            "https://yandex.ru/legal/magistrali_carrier/index.html"
+        ]
+    ],
+    "Коммерческая политика сервисов Яндекс Еда и Delivery Club": [
+        [
+            "Коммерческая политика Сервиса Яндекс Еда",
+            "https://yandex.ru/legal/com_politics_eda/index.html"
+        ],
+        [
+            "Коммерческая политика Сервиса Delivery Club",
+            "https://yandex.ru/legal/com_politics_dc/index.html"
+        ],
+        [
+            "Порядок определения размера Вознаграждения",
+            "https://yandex.ru/legal/procedure_fee/index.html"
+        ],
+        [
+            "Порядок проверки Партнеров при подключении к Сервису",
+            "https://yandex.ru/legal/procedure_verification/index.html"
+        ],
+        [
+            "Порядок формирования Сервисного сбора",
+            "https://yandex.ru/legal/procedure_service_fee/index.html"
+        ],
+        [
+            "Порядок формирования Дохода Доставщиков и взаиморасчетов Сервиса с ними",
+            "https://yandex.ru/legal/procedure_dostavschik/index.html"
+        ],
+        [
+            "Порядок предоставления маркетинговых услуг Ultima Яндекс Еда",
+            "https://yandex.ru/legal/procedure_ultima/index.html"
+        ]
+    ],
+    "Яндекс Задания": [
+        [
+            "Условия использования платформы «ЯНДЕКС ЗАДАНИЯ» (Оферта)",
+            "https://yandex.ru/legal/oferta_yandex_tasks/index.html"
+        ],
+        [
+            "Условия использования платформы «ЯНДЕКС ЗАДАНИЯ»",
+            "https://yandex.ru/legal/user_agreement_yandex_tasks/index.html"
+        ],
+        [
+            "Соглашение об обработке данных",
+            "https://yandex.ru/legal/tasks_customeragreement_dpa/index.html"
+        ],
+        [
+            "Специальные условия оказания услуг",
+            "https://yandex.ru/legal/tasks_customeragreement_specialterms/index.html"
+        ]
+    ],
+    "Мультитранспорт": [
+        [
+            "Правила приобретения и использования Промокодов",
+            "https://yandex.ru/legal/taxi_promocodes_offer/index.html"
+        ],
+        [
+            "Правила приобретения и использования кода на подписку Яндекс Плюс и опцию «Абонемент на самокаты»",
+            "https://yandex.ru/legal/scooters_plus/index.html"
+        ]
+    ]
+}
