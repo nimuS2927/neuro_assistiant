@@ -104,7 +104,11 @@ def initialize_driver():
 
     # Путь к chromedriver, если он не в PATH
     path_to_chromedriver = Path.joinpath(
-        c_basic.project_dir, "RAG", "parsers", "chromedriver-win64", "chromedriver.exe"
+        c_basic.project_dir,
+        "RAG",
+        "parsers",
+        "../chromedriver-win64",
+        "chromedriver.exe",
     )
     driver_service = Service(executable_path=str(path_to_chromedriver))
 
