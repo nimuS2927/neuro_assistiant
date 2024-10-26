@@ -9,6 +9,9 @@ from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer
 
 from core_config import c_hf, c_basic
+import nltk
+
+nltk.download("stopwords")
 
 
 class KeyExtractor:

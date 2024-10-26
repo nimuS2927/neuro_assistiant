@@ -1,13 +1,10 @@
 import os
 
-import nltk
 from pathlib import Path
 from typing import List
 from huggingface_hub import login
 from core_config import c_hf, c_basic
 from transformers import pipeline
-
-nltk.download("stopwords")
 
 
 class Classifier:
