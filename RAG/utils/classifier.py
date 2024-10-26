@@ -25,6 +25,7 @@ class Classifier:
         self.path_to_dataset_dir: Path = path_to_dataset_dir
         self.categories: List[str] = self.get_categories()
         self.pipeline = None
+        self.load_pipeline()
 
     # Названия папок внутри датасета будут являться названиями категорий на которые поделен датасет
     def get_categories(self):
