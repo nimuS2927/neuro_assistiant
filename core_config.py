@@ -31,7 +31,7 @@ class CoreConfigBasic(object):
             os.getenv("DATASET_DIR") if os.getenv("DATASET_DIR") else "yandex_files"
         )
         self.__PATH_TO_DATASET_DIR: Path = Path.joinpath(
-            self.__PROJECT_DIR, self.__DATASET_DIR
+            self.__PATH_TO_FILES, self.__DATASET_DIR
         )
         self.__PATH_TO_DATASET_DIR.mkdir(parents=True, exist_ok=True)
 
