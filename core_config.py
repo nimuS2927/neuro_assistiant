@@ -34,6 +34,13 @@ class CoreConfigBasic(object):
             self.__PATH_TO_FILES, self.__DATASET_DIR
         )
         self.__PATH_TO_DATASET_DIR.mkdir(parents=True, exist_ok=True)
+        self.__PATH_TO_INDEXES_DIR: Path = Path.joinpath(
+            self.__PATH_TO_FILES, "indexes"
+        )
+        self.__PATH_TO_INDEXES_DIR.mkdir(parents=True, exist_ok=True)
+        self.__DEBUG = os.getenv("DEBUG", "False").lower() == "true"
+        self.__PATH_TO_LOG_FILES: Path = Path.joinpath(self.__PATH_TO_FILES, "log")
+        self.__PATH_TO_LOG_FILES.mkdir(parents=True, exist_ok=True)
 
     # region Functions to getting basic settings
     @property
@@ -52,6 +59,18 @@ class CoreConfigBasic(object):
     def path_to_dataset_dir(self) -> Path:
         return self.__PATH_TO_DATASET_DIR
 
+    @property
+    def path_to_indexes_dir(self) -> Path:
+        return self.__PATH_TO_INDEXES_DIR
+
+    @property
+    def debug(self) -> bool:
+        return self.__DEBUG
+
+    @property
+    def path_to_log_files(self) -> Path:
+        return self.__PATH_TO_LOG_FILES
+
     # endregion
 
 
@@ -69,11 +88,16 @@ class HFConfig(object):
 
     def __init__(self):
         self.__TOKEN: str = os.getenv("HF_TOKEN")
+        self.__N_CTX = os.getenv("N_CTX")
 
     # region Functions to getting hf settings
     @property
     def token(self) -> str:
         return self.__TOKEN
+
+    @property
+    def n_ctx(self) -> int:
+        return int(self.__N_CTX)
 
     # endregion
 
