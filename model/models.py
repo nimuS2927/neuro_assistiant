@@ -146,6 +146,7 @@ class ModelSaigaMistral7BGguf(ModelBase):
             model_name,
             is_cuda=is_cuda,
         )
+        self.load_model(new_conversation=Conversation(model_name), n_ctx=c_hf.n_ctx)
 
     def load_model(
         self,
@@ -226,15 +227,15 @@ class ModelSaigaMistral7BGguf(ModelBase):
 # # print("*" * 50)
 # print(fred.generate(prompt="ты можешь решать математические примеры?"))
 
-saiga_gguf = ModelSaigaMistral7BGguf()
-saiga_gguf.load_model(new_conversation=Conversation(saiga_gguf.model_name), n_ctx=8000)
-conversation = Conversation(saiga_gguf.model_name, saiga_gguf.model, is_tokenizer=False)
+# saiga_gguf = ModelSaigaMistral7BGguf()
+# saiga_gguf.load_model(new_conversation=Conversation(saiga_gguf.model_name), n_ctx=8000)
+# conversation = Conversation(saiga_gguf.model_name, saiga_gguf.model, is_tokenizer=False)
 # conversation.add_user_message("У тебя есть имя?")
 # result_prompt = conversation.get_prompt()
 # saiga_gguf.generate(result_prompt)
 
-while True:
-    user_message = input("User: ")
-    conversation.add_user_message(user_message)
-    result_prompt = conversation.get_prompt()
-    saiga_gguf.generate(result_prompt)
+# while True:
+#     user_message = input("User: ")
+#     conversation.add_user_message(user_message)
+#     result_prompt = conversation.get_prompt()
+#     saiga_gguf.generate(result_prompt)
