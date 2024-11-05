@@ -88,8 +88,12 @@ class KeyExtractor:
         keywords = [
             (re.sub(r"[^a-zA-Zа-яА-Я]", " ", keyword).strip(), score)
             for keyword, score in keywords
+            if keyword is not None
+            and keyword.strip() != ""
+            and keyword.strip() != "none"
         ]
-        only_keywords: list[str] = [keyword for keyword, score in keywords]
+        top_keywords = sorted(keywords, key=lambda x: x[1], reverse=True)[:3]
+        only_keywords: list[str] = [keyword for keyword, score in top_keywords]
         if include_scores:
             if is_lemmatize:
                 return (
@@ -184,6 +188,8 @@ class KeyExtractor:
             include_scores=include_scores,
         )
 
+
+keyextractor = KeyExtractor()
 
 # with open(
 #     Path.joinpath(
