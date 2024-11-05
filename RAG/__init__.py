@@ -1,4 +1,4 @@
-from utils import (
-    KeyExtractor,
-    Classifier,
+from .utils import (
+    keyextractor,
+    classifier_,
 )

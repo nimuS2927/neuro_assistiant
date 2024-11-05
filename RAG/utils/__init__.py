@@ -1,2 +1,2 @@
-from .key_extrator import KeyExtractor
-from .classifier import Classifier
+from .key_extrator import keyextractor
+from .classifier import classifier_
