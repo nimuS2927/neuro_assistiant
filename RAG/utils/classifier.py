@@ -37,8 +37,7 @@ class Classifier:
         )
 
 
-# classifier = Classifier()
-# classifier.load_pipeline()
+classifier_ = Classifier()
 # sequence_to_classify = "какие существуют правила при использование такси?"
 # response: Dict[str, Union[str, List[str]]] = classifier.pipeline(
 #     sequence_to_classify, classifier.categories
