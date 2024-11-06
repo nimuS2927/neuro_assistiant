@@ -1,8 +1,14 @@
 import os
 import logging
 from logging.config import dictConfig
-from logging.handlers import TimedRotatingFileHandler
 from core_config import c_basic
+
+
+# Определение пользовательского фильтра
+class BelowWarningFilter(logging.Filter):
+    def filter(self, record):
+        return record.levelno < logging.WARNING
+
 
 # Конфигурация логирования
 logging_config = {
@@ -13,11 +19,24 @@ logging_config = {
             "format": "[%(asctime)s] %(levelname)s - %(name)s - %(message)s",
         },
     },
+    "filters": {
+        "below_warning": {
+            "()": BelowWarningFilter,
+        },
+    },
     "handlers": {
-        "console": {
+        "console_stdout": {
             "class": "logging.StreamHandler",
             "formatter": "default",
-            "level": "INFO" if c_basic.debug else "WARNING",
+            "level": "DEBUG",
+            "stream": "ext://sys.stdout",
+            "filters": ["below_warning"],
+        },
+        "console_stderr": {
+            "class": "logging.StreamHandler",
+            "formatter": "default",
+            "level": "WARNING",
+            "stream": "ext://sys.stderr",
         },
         "file": (
             {
@@ -34,8 +53,10 @@ logging_config = {
         ),
     },
     "root": {
-        "handlers": ["console", "file"] if not c_basic.debug else ["console"],
-        "level": "INFO" if c_basic.debug else "WARNING",
+        "handlers": (
+            ["file"] if not c_basic.debug else ["console_stdout", "console_stderr"]
+        ),
+        "level": "DEBUG" if c_basic.debug else "WARNING",
     },
 }
 
@@ -44,4 +65,11 @@ if c_basic.debug:
     logging_config["handlers"].pop(
         "file", None
     )  # Убираем file-обработчик в режиме отладки
+else:
+    logging_config["handlers"].pop(
+        "console_stdout", None
+    )  # Убираем console_stdout-обработчик в режиме продакшен
+    logging_config["handlers"].pop(
+        "console_stderr", None
+    )  # Убираем console_stderr-обработчик в режиме продакшен
 dictConfig(logging_config)
