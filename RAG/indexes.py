@@ -56,7 +56,6 @@ class IndexHelper:
 
     def create_and_save_index(
         self,
-        storage_context=StorageContext.from_defaults(),
         categories=None,
         reload=False,
     ):
@@ -78,6 +77,7 @@ class IndexHelper:
             print(
                 f"Начат процесс создания индекса:\nкатегория - {cat}\nЧисло документов - {len(documents)}"
             )
+            storage_context = StorageContext.from_defaults()
             index: VectorStoreIndex = VectorStoreIndex(
                 documents, storage_context=storage_context
             )
@@ -121,9 +121,10 @@ class IndexHelper:
             # создаем и сохраняем недостающие индексы
             self.create_and_save_index(categories=missing_indexes)
         else:
+            remove_directory(c_basic.path_to_indexes_dir)
+            c_basic.path_to_indexes_dir.mkdir(parents=True, exist_ok=True)
             self.create_and_save_index(categories=categories)
 
 
-# in_helper = IndexHelper()
-# in_helper.create_and_save_index()
-# print(in_helper._indexes)
+in_helper = IndexHelper()
+in_helper.load_index(reload=True)
