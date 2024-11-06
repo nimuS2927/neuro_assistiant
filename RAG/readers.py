@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 from exceptions import InvalidFileFormatError
 
-from RAG import keyextractor
+from utils.key_extrator import keyextractor
 from rusenttokenize import ru_sent_tokenize
 
 
@@ -586,11 +586,11 @@ class MarkDownReader(BaseReader):
     # endregion
 
 
-mdr = MarkDownReader(chunk_size=500, overlap_size=100, expected_formats=[".md"])
+# mdr = MarkDownReader(chunk_size=500, overlap_size=100, expected_formats=[".md"])
 
-docs = mdr.read_file(
-    Path(
-        r"C:\Users\vsumi\PycharmProjects\neuro_assistiant\library\files\yandex_files\Кинопоиск\Пользовательское соглашение сайта «Кинопоиск»_kinopoisk_termsofuse.md"
-    )
-)
-print(len(docs))
+# docs = mdr.read_file(
+#     Path(
+#         r"C:\Users\vsumi\PycharmProjects\neuro_assistiant\library\files\yandex_files\Кинопоиск\Пользовательское соглашение сайта «Кинопоиск»_kinopoisk_termsofuse.md"
+#     )
+# )
+# print(len(docs))
