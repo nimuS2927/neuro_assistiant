@@ -11,6 +11,8 @@ from transformers import (
     T5ForConditionalGeneration,
 )
 from huggingface_hub import login
+
+from auth.authentication_in_hf import authenticate_hf
 from core_config import c_hf, c_basic
 from model.conversation import Conversation
 
@@ -21,7 +23,7 @@ class ModelBase:
         model_name: str,
         is_cuda: bool = False,
     ):
-        login(token=c_hf.token, add_to_git_credential=True)
+        authenticate_hf()
         self.model_name = model_name
         self.is_cuda = is_cuda
 

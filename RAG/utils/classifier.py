@@ -3,6 +3,8 @@ import os
 from pathlib import Path
 from typing import List
 from huggingface_hub import login
+
+from auth.authentication_in_hf import authenticate_hf
 from core_config import c_hf, c_basic
 from transformers import pipeline
 
@@ -19,7 +21,7 @@ class Classifier:
         specialization: str = "zero-shot-classification",
         path_to_dataset_dir: Path = c_basic.path_to_dataset_dir,
     ):
-        login(token=c_hf.token, add_to_git_credential=True)
+        authenticate_hf()
         self.model_name: str = model_name
         self.specialization: str = specialization
         self.path_to_dataset_dir: Path = path_to_dataset_dir

@@ -1,11 +1,12 @@
+import json
 import os
 from pathlib import Path
 from dotenv import load_dotenv, find_dotenv
-
+import logging
+import logging_config
 
 load_dotenv(find_dotenv())
-
-DEBUG = False
+logger = logging.getLogger(os.path.basename(__file__))
 
 
 class CoreConfigBasic(object):
@@ -39,8 +40,6 @@ class CoreConfigBasic(object):
         )
         self.__PATH_TO_INDEXES_DIR.mkdir(parents=True, exist_ok=True)
         self.__DEBUG = os.getenv("DEBUG", "False").lower() == "true"
-        self.__PATH_TO_LOG_FILES: Path = Path.joinpath(self.__PATH_TO_FILES, "log")
-        self.__PATH_TO_LOG_FILES.mkdir(parents=True, exist_ok=True)
 
     # region Functions to getting basic settings
     @property
@@ -66,10 +65,6 @@ class CoreConfigBasic(object):
     @property
     def debug(self) -> bool:
         return self.__DEBUG
-
-    @property
-    def path_to_log_files(self) -> Path:
-        return self.__PATH_TO_LOG_FILES
 
     # endregion
 
@@ -103,6 +98,42 @@ class HFConfig(object):
 
 
 c_hf = HFConfig()
+
+
+class ConversationConfig:
+    _instance = None
+
+    def __new__(cls):
+        if not cls._instance:
+            instance = super(ConversationConfig, cls).__new__(cls)
+            cls._instance = instance
+        return cls._instance
+
+    def __init__(self):
+        self.__LANGUAGES = ["en", "ru"]
+        self.__PATH_TO_CONFIG_DIR: Path = Path.joinpath(
+            c_basic.project_dir, "conversation_config"
+        )
+        self.__PATH_TO_CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+        try:
+            with open(
+                Path.joinpath(self.__PATH_TO_CONFIG_DIR, "models_config.json"),
+                "r",
+                encoding="utf-8",
+            ) as f:
+                self.models_config: dict = json.load(f)
+        except Exception as e:
+            logger.warning("Файл models_config.json не был загружен", exc_info=e)
+
+        try:
+            with open(
+                Path.joinpath(self.__PATH_TO_CONFIG_DIR, "languages_vocab.json"),
+                "r",
+                encoding="utf-8",
+            ) as f:
+                self.languages_vocab: dict = json.load(f)
+        except Exception as e:
+            logger.warning("Файл languages_vocab.json не был загружен", exc_info=e)
 
 
 class ConfigProject(object):

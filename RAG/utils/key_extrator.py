@@ -6,9 +6,10 @@ import pymorphy2
 from huggingface_hub import login
 from keybert import KeyBERT
 from nltk.corpus import stopwords
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 
-from core_config import c_hf, c_basic
+from auth.authentication_in_hf import authenticate_hf
+from core_config import c_hf
 import nltk
 
 nltk.download("stopwords")
@@ -37,10 +38,59 @@ class KeyExtractor:
                 set(stopwords.words("russian") + stopwords.words("english"))
             )
         self.stop_words = stop_words
-        login(token=c_hf.token, add_to_git_credential=True)
+        authenticate_hf()
         self.model_name = model_name
-        self.model = KeyBERT(SentenceTransformer(self.model_name))
+        self.model = SentenceTransformer(self.model_name)
+        self.model_key_bert = KeyBERT(self.model)
         self.morph = pymorphy2.MorphAnalyzer()
+
+    def cosine_scores(
+        self,
+        query_str: str,
+        categories_: dict[str, str] = None,
+        verbose: bool = False,
+        texts_list: list[str] = None,
+        return_top: int = 5,
+    ):
+        if categories_:
+            texts = [value.lower() for k, value in categories_.items()]
+
+            text_embeddings = self.model.encode(texts, convert_to_tensor=True)
+        elif texts_list:
+            text_embeddings = self.model.encode(texts_list, convert_to_tensor=True)
+        else:
+            # Изначально функция писалась только для семантического сравнения запроса с описанием индексов,
+            # но я не стал писать отдельную функцию, а просто добавил в нее сравнение любого набора списка
+            # с запросом, для того чтобы выбирать наиболее подходящие документы для передачи их в контекст
+            raise ValueError(
+                "Один из параметров categories_ или texts должен быть передан."
+            )
+
+        query_embedding = self.model.encode(query_str, convert_to_tensor=True)
+        cosine_scores = util.cos_sim(query_embedding, text_embeddings)
+        if categories_:
+            sorted_scores = sorted(
+                zip(categories_.keys(), cosine_scores.tolist()[0]),
+                key=lambda x: x[1],
+                reverse=True,
+            )
+        else:
+            sorted_scores = sorted(
+                zip(texts_list, cosine_scores.tolist()[0]),
+                key=lambda x: x[1],
+                reverse=True,
+            )
+        if verbose:
+            # Печать топ-5 списка схожести с запросом
+            if categories_:
+                for cat, score in sorted_scores[:5]:
+                    print(f"Категория: {cat}, Схожесть: {score:.4f}")
+            if texts_list:
+                for text, score in sorted_scores[:5]:
+                    print(f"Текст схожестью {score:.4f}:\n{text}\n{'*' * 20}")
+        return sorted_scores[
+            :return_top
+        ]  # Возвращаем топ-5 (по умолчанию, если не передано другое значение)
 
     def lemmatize_keywords(
         self,
@@ -76,7 +126,7 @@ class KeyExtractor:
             else True
         )
 
-        keywords: list[tuple[str, float]] = self.model.extract_keywords(
+        keywords: list[tuple[str, float]] = self.model_key_bert.extract_keywords(
             docs=document.replace("_", " "),
             stop_words=stop_words if stop_words else self.stop_words,
             keyphrase_ngram_range=keyphrase_ngram_range,

@@ -1,0 +1,14 @@
+{
+  "en": {
+    "user": "user",
+    "assistant": "assistant",
+    "system": "system",
+    "context": "context"
+  },
+  "ru": {
+    "user": "пользователь",
+    "assistant": "ассистент",
+    "system": "инструкция",
+    "context": "контекст"
+  }
+}

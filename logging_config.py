@@ -1,7 +1,11 @@
 import os
 import logging
 from logging.config import dictConfig
-from core_config import c_basic
+from pathlib import Path
+from dotenv import load_dotenv, find_dotenv
+
+
+load_dotenv(find_dotenv())
 
 
 # Определение пользовательского фильтра
@@ -9,6 +13,12 @@ class BelowWarningFilter(logging.Filter):
     def filter(self, record):
         return record.levelno < logging.WARNING
 
+
+DEBUG = os.getenv("DEBUG", "False").lower() == "true"
+PATH_TO_LOG_FILES: Path = Path.joinpath(
+    Path(__file__).parent, "library", "files", "log"
+)
+PATH_TO_LOG_FILES.mkdir(parents=True, exist_ok=True)
 
 # Конфигурация логирования
 logging_config = {
@@ -42,26 +52,24 @@ logging_config = {
             {
                 "class": "logging.handlers.TimedRotatingFileHandler",
                 "formatter": "default",
-                "level": "INFO" if c_basic.debug else "WARNING",
-                "filename": os.path.join(c_basic.path_to_log_files, "project.log"),
+                "level": "INFO" if DEBUG else "WARNING",
+                "filename": os.path.join(str(PATH_TO_LOG_FILES), "project.log"),
                 "when": "midnight",  # Логи ротации каждый день в полночь
                 "backupCount": 7,  # Хранить 7 файлов (неделя)
                 "encoding": "utf-8",  # Для поддержки юникода в логах
             }
-            if not c_basic.debug
+            if not DEBUG
             else None
         ),
     },
     "root": {
-        "handlers": (
-            ["file"] if not c_basic.debug else ["console_stdout", "console_stderr"]
-        ),
-        "level": "DEBUG" if c_basic.debug else "WARNING",
+        "handlers": (["file"] if not DEBUG else ["console_stdout", "console_stderr"]),
+        "level": "DEBUG" if DEBUG else "WARNING",
     },
 }
 
 # Применение конфигурации логирования
-if c_basic.debug:
+if DEBUG:
     logging_config["handlers"].pop(
         "file", None
     )  # Убираем file-обработчик в режиме отладки

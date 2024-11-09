@@ -12,11 +12,6 @@ from utils.key_extrator import keyextractor
 from rusenttokenize import ru_sent_tokenize
 
 
-# import nltk
-#
-# nltk.download("punkt_tab")
-
-
 class BaseReader(ABC):
 
     @property

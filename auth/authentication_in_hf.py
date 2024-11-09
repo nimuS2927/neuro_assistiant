@@ -44,6 +44,3 @@ def authenticate_hf(validate: bool = False):
             logger.info("Проверяем валидность.")
             if not check_token_validity(token):
                 login(token=c_hf.token, add_to_git_credential=True)
-
-
-authenticate_hf()
