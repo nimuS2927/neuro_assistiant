@@ -33,7 +33,10 @@ class Classifier:
 
     def load_pipeline(self):
         self.pipeline = pipeline(
-            self.specialization, model=self.model_name, use_fast=False
+            self.specialization,
+            model=self.model_name,
+            use_fast=False,
+            device_map="auto",
         )
 
 
